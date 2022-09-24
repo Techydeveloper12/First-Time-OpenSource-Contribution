@@ -96,25 +96,53 @@
 
 // let likes = 100;
 
-const youtube = {
-    likes : 100,
-    name : "bharat",
-    subscribers : 500
-}
-const you = {
-    likes : 100,
-}
+// const youtube = {
+//     likes : 100,
+//     name : "bharat",
+//     subscribers : 500
+// }
+// const you = {
+//     likes : 100,
+// }
 
-const veer = (a,b) => {
-    a.likes = 200;
-    b.subscribers = 1000;
-}
+// const veer = (a,b) => {
+//     a.likes = 200;
+//     b.subscribers = 1000;
+// }
 
 
-veer(you, youtube);
+// veer(you, youtube);
 
-console.log(you.likes);
-console.log(youtube.subscribers);
+// console.log(you.likes);
+// console.log(youtube.subscribers);
+
+
+
+
+
+// let a =10;
+// var a = 20;
+// console.log(a);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
