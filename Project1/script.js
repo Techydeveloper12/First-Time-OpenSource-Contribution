@@ -61,20 +61,20 @@ function loadQuiz() {
 
 
 
-function getSelected() {
-    let answer = undefined;
+// function getSelected() {
+//     let answer = undefined;
 
-    answerEls.forEach((answerEl) => {
-        if (answerEl.checked) {
-            answer = answerEl.id;
-        }
-    });
+//     answerEls.forEach((answerEl) => {
+//         if (answerEl.checked) {
+//             answer = answerEl.id;
+//         }
+//     });
 
-    return answer;
-}
+//     return answer;
+// }
 
-function deselectAnswers() {
-    answerEls.forEach((answerEl) => {
-        answerEl.checked = false;
-    });
-}
+// function deselectAnswers() {
+//     answerEls.forEach((answerEl) => {
+//         answerEl.checked = false;
+//     });
+// }
