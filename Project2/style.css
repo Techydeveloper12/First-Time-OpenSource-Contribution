@@ -32,3 +32,20 @@ nav ul{
     font-family: 'Roboto', sans-serif;
     position: relative;
 }
+
+.box{
+    border: 2px solid black;
+    font-size: 8vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover{
+    background-color: rgb(242, 234, 250);
+}
+
+.info {
+    font-size: 22px;
+}
