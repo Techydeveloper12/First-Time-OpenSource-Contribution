@@ -60,3 +60,5 @@ reset.addEventListener('click', ()=>{
         element.innerText = ""
     });
     turn = "X";
+    isgameover = false
+    document.querySelector(".line").style.width = "0vw";
